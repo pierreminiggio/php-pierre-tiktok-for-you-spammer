@@ -37,7 +37,7 @@ class App
                 $spammerProject['account'],
                 $spammerProject['project'],
                 'spam.yml',
-                1800
+                1350
             );
         } catch (Exception $e) {
             echo PHP_EOL . 'Error while rendering : ' . $e->getMessage();
