@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Exception;
 use PierreMiniggio\GithubActionRunStarterAndArtifactDownloader\GithubActionRunStarterAndArtifactDownloaderFactory;
 
 class App
