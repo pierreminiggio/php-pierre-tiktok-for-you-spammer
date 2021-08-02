@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-action-run-creator.git",
-                "reference": "cf7417aadeddb372f62aff8b7113109524c35a04"
+                "reference": "fe585feb3b19fa731ec93e7bb24cdb6f389849d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-creator/zipball/cf7417aadeddb372f62aff8b7113109524c35a04",
-                "reference": "cf7417aadeddb372f62aff8b7113109524c35a04",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-creator/zipball/fe585feb3b19fa731ec93e7bb24cdb6f389849d3",
+                "reference": "fe585feb3b19fa731ec93e7bb24cdb6f389849d3",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-action-run-creator/issues",
-                "source": "https://github.com/pierreminiggio/php-github-action-run-creator/tree/1.0.1"
+                "source": "https://github.com/pierreminiggio/php-github-action-run-creator/tree/1.0.2"
             },
-            "time": "2021-04-29T09:18:28+00:00"
+            "time": "2021-08-02T22:57:54+00:00"
         },
         {
             "name": "pierreminiggio/github-action-run-detailer",
@@ -203,12 +203,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-action-run-starter-and-artifact-downloader.git",
-                "reference": "33a136e9c88855bb237355e11ade80228318e937"
+                "reference": "debb1789034b1fa701af9b7c42668da83e4976f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-starter-and-artifact-downloader/zipball/33a136e9c88855bb237355e11ade80228318e937",
-                "reference": "33a136e9c88855bb237355e11ade80228318e937",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-starter-and-artifact-downloader/zipball/debb1789034b1fa701af9b7c42668da83e4976f6",
+                "reference": "debb1789034b1fa701af9b7c42668da83e4976f6",
                 "shasum": ""
             },
             "require": {
@@ -239,9 +239,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-action-run-starter-and-artifact-downloader/issues",
-                "source": "https://github.com/pierreminiggio/php-github-action-run-starter-and-artifact-downloader/tree/1.1.2"
+                "source": "https://github.com/pierreminiggio/php-github-action-run-starter-and-artifact-downloader/tree/1.1.3"
             },
-            "time": "2021-05-25T21:11:30+00:00"
+            "time": "2021-08-02T23:02:51+00:00"
         },
         {
             "name": "pierreminiggio/github-action-runs-lister",
