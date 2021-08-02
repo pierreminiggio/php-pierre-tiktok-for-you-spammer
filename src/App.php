@@ -33,7 +33,6 @@ class App
             $projectFolder
             . 'config.php'
         ;
-        $token = $config['apiToken'];
 
         $runnerAndDownloader = (new GithubActionRunStarterAndArtifactDownloaderFactory())->make();
         $runnerAndDownloader->sleepTimeBetweenRunCreationChecks = 30;
@@ -55,6 +54,8 @@ class App
         } catch (Exception $e) {
             echo PHP_EOL . 'Error while rendering : ' . $e->getMessage();
             var_dump($e->getTrace());
+
+            return;
         }
 
         echo ' Done !' . PHP_EOL;
