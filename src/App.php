@@ -2,20 +2,7 @@
 
 namespace App;
 
-use Dailymotion;
-use DateTime;
-use Exception;
-use PierreMiniggio\DailymotionFileUploader\FileUploader;
-use PierreMiniggio\DailymotionTokenProvider\AccessTokenProvider;
-use PierreMiniggio\DailymotionUploadUrlMaker\UploadUrlMaker;
-use PierreMiniggio\GithubActionRemotionRenderer\GithubActionRemotionRenderer;
-use PierreMiniggio\GithubActionRunStarterAndArtifactDownloader\GithubActionRunStarterAndArtifactDownloader;
 use PierreMiniggio\GithubActionRunStarterAndArtifactDownloader\GithubActionRunStarterAndArtifactDownloaderFactory;
-use PierreMiniggio\GoogleTokenRefresher\GoogleClient;
-use PierreMiniggio\HeropostAndYoutubeAPIBasedVideoPoster\Video;
-use PierreMiniggio\HeropostAndYoutubeAPIBasedVideoPoster\VideoPosterFactory;
-use PierreMiniggio\HeropostYoutubePosting\YoutubeCategoriesEnum;
-use PierreMiniggio\HeropostYoutubePosting\YoutubeVideo;
 
 class App
 {
